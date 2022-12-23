@@ -1,0 +1,8 @@
+login mein inka fullname mera inputFullName hai ase hi baaki hai
+
+
+      
+keytool -exportcert -alias androiddebugkey -keystore "C:\Users\harsh\.android\debug.keystore" | "C:\Users\harsh\Downloads\openssl-0.9.8e_X64\bin\openssl" sha1 -binary | "C:\Users\harsh\Downloads\openssl-0.9.8e_X64\bin\openssl" base64
+
+key=>HhkJMoE1WNhspEYV0dd+rEVWw8I=      
+

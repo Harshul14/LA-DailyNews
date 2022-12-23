@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1BDBDB">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Here"
+        android:fontFamily="@font/crimson_bold"
+        android:textSize="28dp"
+        android:textStyle="normal">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="textPersonName"
+        android:id="@+id/fullname"
+        android:hint="Your Name"
+        android:background="@drawable/input_text_mobile"
+        android:drawableEnd="@drawable/ic_name"
+        android:maxLines="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:fontFamily="@font/crimson_semibold"
+        android:textColor="@color/black">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="phone"
+        android:id="@+id/phone"
+        android:hint="Mobile"
+        android:drawableEnd="@drawable/ic_phone"
+        android:maxLines="1"
+        android:maxEms="10"
+        android:background="#A9A9A9"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:fontFamily="@font/crimson_semibold"
+        android:textColor="@color/black">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailid"
+        android:hint="Email ID"
+        android:drawableEnd="@drawable/ic_mail"
+        android:maxLines="1"
+        android:background="#A9A9A9"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:fontFamily="@font/crimson_semibold"
+        android:textColor="@color/black">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="phone"
+        android:id="@+id/textpassword"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:background="#A9A9A9"
+        android:drawableEnd="@drawable/ic_lock"
+        android:maxLines="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:fontFamily="@font/crimson_semibold">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="phone"
+        android:id="@+id/confirmpassword"
+        android:hint="Confirm Password"
+        android:textColor="@color/black"
+        android:background="@drawable/input_text_password"
+        android:drawableEnd="@drawable/ic_lock"
+        android:maxLines="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:fontFamily="@font/crimson_semibold">
+    </EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="24dp"
+        android:text="Register"
+        android:id="@+id/registerbutton"
+        android:fontFamily="@font/crimson_bold"
+        android:background="@drawable/login_button">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an Account?"
+            android:textColor="@color/black"
+            android:fontFamily="@font/flamenco_light"/>
+
+        <TextView
+            android:layout_marginStart="5dp"
+            android:id="@+id/signinbuton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textStyle="bold"
+            android:fontFamily="@font/alice_regular"/>
+
+    </LinearLayout>
+
+</LinearLayout>
